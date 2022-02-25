@@ -1,0 +1,53 @@
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    color: black;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    color: black;
+    text-align: justify;
+  }
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: justify;
+  }
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    color: black;
+    text-align: justify;
+  }
+
+ol {
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    color: black;
+    text-align: justify;
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    color: black;
+    text-align: left;
+    border-color: black;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    color: black;
+    text-align: justify;
+}
+
+img {
+    text-align: center;
+  }
