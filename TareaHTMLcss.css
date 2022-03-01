@@ -48,6 +48,22 @@ label {
     text-align: justify;
 }
 
-img {
-    text-align: center;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0.5;
+  padding: 0;
+  
+  text-align: left;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+body {
+  background-image: url('nasa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
