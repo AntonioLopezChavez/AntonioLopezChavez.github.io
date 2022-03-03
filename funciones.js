@@ -6,6 +6,7 @@ inp.addEventListener('submit', function(a) {
     if (x.value === null || x.value === '') {
         alert('Por favor agrega tu comentario');
     }
-    
-    
+    else {
+        window.location.href = "indexGracias.html";
+    }
 });

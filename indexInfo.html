@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Antonio López Chávez - TC2005B - Bootstrap + JavaScript-->
+<!-- Hosteado en https://antoniolopezchavez.github.io/-->
+<head>
+    <link rel="stylesheet" href="TareaHTMLcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src = "funciones.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="https://antoniolopezchavez.github.io/">Artemis</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="indexInfo.html"> Información </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Extras
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="indexExtras.html">Sobre el autor y Artemisa</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="indexComentarios.html">Comentarios</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <h2>
+        <center>
+            Contenido
+        </center>
+    </h2>
+
+    <h4>
+        Resumen
+    </h4>
+    
+    <div>
+        <a>
+            El programa Artemisa ha estado desarrollando un software único para controlar su nuevo cohete en la primera misión hacia la Luna. Evaluaciones recientes dan a conocer su alta adaptabilidad a todo tipo de escenarios, por lo que es ahora la parte más importante de este proyecto espacial.
+        </a>
+        
+    </div>
+    
+    <main>
+        <div>
+            <ol>
+                <li class = "subtitle"> Introducción </li>
+                <p>  
+                    Al ser una iniciativa tan importante para el futuro de los viajes espaciales y la humanidad en general, el equipo del programa Artemisa necesita asegurarse de que cada escenario posible sea ensayado rigurosamente, para así reducir la probabilidad de errores, y siempre utilizar tecnologías y maquinaria de la mejor calidad posible para la construcción y mantenimiento de su equipo.
+                    Para asegurar esto, Artemisa I utilizará el nuevo Space Launch System (SLS), un nuevo cohete que la NASA garantiza que será el más poderoso de la historia de la humanidad, capaz de ir de 0 a más de 17,000 millas por hora (McMahan, 2019), siendo este proyecto la culminación de todos estos años de investigación y experimentación desde la primera llegada a la Luna en 1969, encargándose de llevar la estación Orión y sus tripulantes nuevamente a este satélite natural. Algo fascinante es que lo más importante y sofisticado del proyecto no se limita a la parte física, nada de ésta serviría y estaría expuesta a diversos problemas si no se contara con el software integrado del SLS, después de todo, es la única parte del cohete que ha estado en funcionamiento desde hace años y se ha confirmado que está lista para volar. 
+                </a>
+                <li class = "subtitle"> Una vieja idea </li>
+                <p> 
+                    El interés en implementar un software sofisticado para futuras expediciones a la Luna fue aumentando constantemente desde inicios del siglo, según Bluck (2006), en esta época estaban empezando proyectos de experimentación de diversos programas dedicados a completar objetivos como guiar de manera segura el desplazamiento del transporte, automatizar el uso y mantenimiento de la energía, detectar cualquier tipo de falla en el cohete y emitir alarmas de seguridad e incluso monitorear las actividades de los tripulantes para mantener una mejor y más segura organización general. 
+                </p>
+                <li class = "subtitle"> Un nuevo inicio para softwares de vuelo </li>
+                <p> 
+                    La innovación del software del SLS empieza al estar cargado en tres computadoras diferentes dentro del núcleo principal del transporte, vinculándose profundamente con su sistema aviónico, el conjunto de sistemas eléctricos que le autoriza el acceso directo a la estructura física del SLS. Esta conexión le permite encargarse del funcionamiento correcto de los motores, cabinas internas y del control automático de la trayectoria del cohete, cumpliendo así los roles de supervisor y piloto de la nave (National Aeronautics and Space Organization, 2020).
+                </p>
+                <li class = "subtitle"> Importancia de un control de calidad estricto </li>
+                <p>
+                    En una publicación de The Washington Post, el reportero Christian Davenport (2020) narra fragmentos de su entrevista con Doug Loverro, el encargado de Exploración Humana de la NASA sobre un proyecto ligado a la empresa Boeing, la cual lanzó la nave tripulada “Starliner” al espacio sin saber de sus errores fatales de programación.
+                    Tras no cumplir con estándares suficientes de revisión previa, el software causó una desincronización de 11 horas del temporizador de los propulsores, provocando que no se iniciaran a tiempo para poner el Starliner en trayectoria hacia la estación espacial que los albergaría en el resto de la misión. Esto provocó una revisión de emergencia por el equipo de ingenieros de Boeing y la NASA, quienes empezaron a encontrar cada vez más errores como la activación de los propulsores incorrectos. Tras un esfuerzo rápido, se conectaron a dicho software y finalmente lo actualizaron, permitiendo a la tripulación salir de peligro y aterrizar de manera segura al día siguiente (Davenport, 2020).
+                    Loverro expresó su preocupación por los estándares de calidad de Boeing y la falta de intervención de la NASA en estos procesos de control de calidad, declarando su alivio por no haberse causado una catástrofe en la misión. Este suceso causó que la organización principal elevara sus requerimientos de evaluación y pruebas para proyectos posteriores, lo cual se vería reflejado el programa Artemisa (Davenport, 2020).
+                </p>
+                <li class = "subtitle"> Aprendiendo de los errores </li>
+                <p>
+                    A diferencia de las computadoras anteriormente usadas, el software del SLS fue hecho con el fin y capacidad de ensayar y aprender de cada fase de lanzamiento y navegación de manera exhaustiva, pasando por una gran diversidad de pruebas rigurosas, las cuales ha pasado con el rendimiento esperado, logrando así ser correcta y completamente instalado en el SLS (McMahan & Osorio, 2021).
+                    Una etapa de evaluación se llevó a cabo dentro del laboratorio de Integración de Sistemas de la NASA, el espacio predilecto para la experimentación de todo software que se quiera utilizar para misiones o mejorar las instalaciones. En este espacio, los ingenieros de software de la organización pueden probar el software al crear simulaciones de lanzamiento en tiempo real del cohete, cada uno cubriendo diferentes escenarios que podría enfrentar en el verdadero lanzamiento y vuelo. El líder del equipo de desarrollo de este software, Shaun Phillips, asegura que esta campaña de ejercicios para el sistema involucra mucho más de 300,000 escenarios posibles, así asegurándose de que todo requerimiento sea cumplido satisfactoriamente (McMahan & Osorio, 2021).
+                </p>
+                <li class = "subtitle"> Instalado y listo para navegar </li>
+                <p>
+                    No es de sorprender que, tras cumplir con las suficientes pruebas y etapas de control, este software ya haya sido instalado en el SLS, pues ha llegado la hora de la fase de pruebas en el sistema principal. Aplicando el conocimiento adquirido en las fallas y misiones exitosas, NASA ha encontrado éxito en la creación de un software que revolucione las misiones del proyecto y no solo se encuentre fuera de riesgo, también proteja la integridad de la tripulación y la nave en todo momento, siendo así la clave para el cumplimiento de la primera misión del programa Artemisa.
+                </p>
+            </ol>
+        </div>
+    </main>
+    
+    <div>
+        <center>
+            <img src="artemisa.jpg">
+        </center>
+        <p style = "font-family: 'Raleway', sans-serif; font-size: 125%; text-align: center"> Imagen del cohete Artemisa </p>
+    </div>
+    
+
+    <footer>
+        <center>
+            <table>
+                <p style = "font-family: 'Raleway', sans-serif; font-size: 150%; text-align: center; font-weight: 600;"> Tabla de referencias </p>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                Bluck, J. (2006, abril). NASA - La NASA Prueba «Software» de Prototipo Para Vuelos Espaciales Futuros. NASA
+                                https://www.nasa.gov/centers/ames/spanish/news/releases/06_27AR.html
+                            </li>
+                            <li>
+                                Davenport, C. (2020, febrero). NASA finds ‘fundamental’ software problems in Boeing’s Starliner spacecraft. The Washington Post. 
+                                https://www.washingtonpost.com/technology/2020/02/07/boeing-starliner-software-problems/
+                            </li>
+                            <li>
+                                McMahan, T., & Osorio, R. (2021, agosto). NASA Moon Rocket Flight Software Readied for Artemis I Launch. NASA.
+                                https://www.nasa.gov/exploration/systems/sls/nasa-moon-rocket-flight-software-readied-for-artemis-i-launch.html
+                            </li>
+                            <li>
+                                McMahan, T. (2019, noviembre). NASA Certifies SLS Laboratory to Test Flight Software for Artemis. NASA.
+                                https://www.nasa.gov/exploration/systems/sls/news/sls-rocket-laboratory-certified-to-test-flight-software-for-artemis-I.html
+                            </li>
+                            <li>
+                                National Aeronautics and Space Organization. (2020, septiembre). Space Launch System. NASA.  
+                                 https://www.nasa.gov/sites/default/files/atoms/files/0080_sls_fact_sheet_sept2020_09082020_final_0.pdf
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            </center>
+            <center>
+                <a href="https://antoniolopezchavez.github.io/" target="_blank"> Volver al inicio </a>
+            </center>
+    </footer>
+    <script src = "funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
