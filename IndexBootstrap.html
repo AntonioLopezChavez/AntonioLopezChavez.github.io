@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Antonio López Chávez - TC2005B - Tarea HTML + CSS-->
+<!-- Antonio López Chávez - TC2005B - Bootstrap + JavaScript-->
 <!-- Hosteado en https://antoniolopezchavez.github.io/-->
 <head>
     <link rel="stylesheet" href="TareaHTMLcss.css">
@@ -16,7 +16,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+    <div class="container-fluid">
     <a class="navbar-brand" href="https://antoniolopezchavez.github.io/">Artemis</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -109,7 +109,6 @@
         </div>
     </main>
     
-
     <div>
         <center>
             <img src="artemisa.jpg">
@@ -139,21 +138,17 @@
             </ol>
         </nav>
     </section>
-    
 
-    <form action="" method="GET" onsubmit="validaForma()">
+    <form id = "Inputs">
         <div>
             <a> ¿Tienes algún comentario? Compártelo conmigo:</a>
         </div>
         
-        <div id = "Comentario">
+        <div>
             <label for = "comentario">Inserte comentario: </label>
             <input type = "text" id = "comentario" name = "comentario1">
-            <input type = "submit">
+            <input type = "submit" class = "button" id = "submit1">
         </div>
-       
-        
-
     </form>
 
     <footer>

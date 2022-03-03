@@ -1,8 +1,11 @@
-function validaForma() {
-    let x = document.forms["Comentarios"]["comentario1"].value;
-    if (x == "") {
-        alert("Por favor agrega tu comentario")
-        return false;
+var inp = document.getElementById('Inputs');
+var x = document.getElementById('comentario');
+
+inp.addEventListener('submit', function(a) {
+    a.preventDefault();
+    if (x.value === null || x.value === '') {
+        alert('Por favor agrega tu comentario');
     }
     
-}
+    
+});
